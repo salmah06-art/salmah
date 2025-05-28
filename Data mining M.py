@@ -15,6 +15,8 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 from sklearn.datasets import load_iris
 
+st.title("Hello,world")
+
 # Load model
 with open("iris_nb_model.pkl", "rb") as file:
     model = pickle.load(file)
